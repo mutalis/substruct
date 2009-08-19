@@ -18,7 +18,7 @@ development:
   adapter: mysql
   encoding: utf8
   database: substruct_development
-  username: root
+  username: substruct
   password: password
   socket: /tmp/mysql.sock
 
@@ -29,7 +29,7 @@ test:
   adapter: mysql
   encoding: utf8
   database: substruct_test
-  username: root
+  username: substruct
   password: password
   socket: /tmp/mysql.sock
 
@@ -37,7 +37,7 @@ production:
   adapter: mysql
   encoding: utf8
   database: substruct_production
-  username: root
+  username: substruct
   password: password
   socket: /tmp/mysql.sock
   
